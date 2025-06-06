@@ -41,11 +41,21 @@ createPlatform(0, 700, 50, 50, "red");
 createPlatform(130, 650, 50, 50, "red");
 createPlatform(0, 530, 50, 50, "red");
 createPlatform(130, 450, 50, 50, "red");
+createPlatform(1160, 700, 50, 50, "red");
+createPlatform(1280, 630, 50, 50, "yellow");
+createPlatform(1300, 480, 50, 50, "yellow");
+createPlatform(1160, 550, 50, 50, "purple");
+createPlatform(1300, 290, 50, 50, "green");
+createPlatform(1160, 190, 50, 50, "blue");
+createPlatform(1300, 90, 50, 50, "blue");
+createPlatform(1350, 90, 50, 50, "blue");
+createPlatform(900, 500, 50, 50, "white");
+createPlatform(1160, 390, 50, 50, "red");
 createPlatform(395, 600, 50, 50, "blue");
 createPlatform(260, 500, 50, 50, "blue");
 createPlatform(580, 550, 50, 50, "yellow");
 createPlatform(1050, 600, 50, 50, "green");
-createPlatform(880, 350, 50, 50, "orange");
+createPlatform(800, 350, 50, 50, "orange");
 
 
 
@@ -55,16 +65,20 @@ createPlatform(880, 350, 50, 50, "orange");
 createCollectable("steve", 1350, 50);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
 createCollectable("max", 699, 410, 0.5, 0.7);
-createCollectable("database", 900, 290, 0.5, 0.7);
+createCollectable("database", 800, 290, 0.5, 0.7);
 
     
     // TODO 4 - Create Cannons
-createCannon("top", 300, 2000);
-createCannon("top", 700, 2000);
-createCannon("top", 1000, 2000);
-createCannon("right", 200, 2000);
-createCannon("right", 400, 2000);
-createCannon("right", 750, 2000);
+createCannon("top", 100, 10000);
+createCannon("top", 300, 10000);
+createCannon("top", 500, 10000);
+createCannon("top", 700, 10000);
+createCannon("top", 1000, 10000);
+createCannon("top", 1300, 10000);
+createCannon("right", 200, 10000);
+createCannon("right", 400, 10000);
+createCannon("right", 600, 10000);
+createCannon("right", 750, 10000);
     
     
     //////////////////////////////////
