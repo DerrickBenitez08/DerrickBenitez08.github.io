@@ -95,6 +95,11 @@ var init = function (window) {
                 circle.x = 0;
             }
             
+            if ( circle.y > canvas.height ) {
+                // move the circle
+                circle.y = 0;
+            }
+            
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             if (circle.x < 0) {
                 circle.x = canvas.width;
